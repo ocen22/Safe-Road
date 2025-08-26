@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  /*width: 1440px;
+  height: 3880px;*/
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 16px;
+    font-weight: 300;
+    
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+address {
+  font-style: normal;
+  display: flex;
+}
+a{
+  display: inline-block;
+}
+span {
+  color: var(--color-brand-normal);
+}
+/*Basic*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+span[lang='en'] {
+  text-transform: uppercase;
+  font-weight: 600;
+}

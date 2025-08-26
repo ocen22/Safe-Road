@@ -1,0 +1,64 @@
+@import './utile/fonts';
+@import './utile/variables';
+@import './base';
+@import'./utile/utils';
+@import'./utile/modal';
+@import'./utile/form';
+
+@import'./components/chef-card';
+@import'./components/format-cards';
+@import'./components/form-terms';
+@import'./components/pagination';
+@import'./components/scrolling-button';
+
+/* Header */
+@import'./layouts/header';
+/* Button */
+@import'./components/buttons';
+/* Link */
+@import'./components/links';
+/* Hero section */
+@import'./layouts/hero';
+/* Advantages section */
+@import'./layouts/advantage';
+/* h2 title */
+@import'./layouts/section';
+
+@import'./layouts/contacts';
+@import'./layouts/footer';
+@import'./layouts/formats';
+@import'./layouts/mobile-menu';
+@import'./layouts/chefs-section';
+@import'./layouts/tradition-section';
+@import'./utile/mixins';
+
+
+/*Использование @mixin в scss препроцессорах
+когда предполагается неоднократное использование, к примеру, кругов разных параметров и цвета
+
+.circle{
+  @include circle(100px, 100px, blue);
+}*/
+
+/* Tradition section */
+
+
+
+/* Chefs-section & h3 title */
+
+
+
+/* Format section */
+
+
+/* contact section */
+
+
+/* footer section */
+
+
+/*Modal window*/
+
+
+/* Form */
+

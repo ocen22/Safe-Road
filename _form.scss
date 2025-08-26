@@ -1,0 +1,46 @@
+.input{
+  &__form-field{
+    position: relative;
+}
+  &__label{
+  display: block;
+ /* &__anime{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: var(--color-brand-dark);
+     &:focus-within{
+       transform: translate(-36px, -40px);
+   } 
+  }*/
+}
+  &__control{
+  padding: 16px 42px;
+  width: 100%;
+  border: 1px solid var(--color-chef-picture-border);
+  border-radius: 8px;
+  background-color: transparent;
+  &:focus{
+    border-color: var(--color-brand-normal);
+    outline: none;
+    }
+    &:focus::placeholder{
+    color: var(--color-primary-dark);
+    }
+  }
+}
+
+
+
+
+/* as experience for leaning*/
+
+/*.input:focus + .anime{
+  transform: translate(-36px, -40px);
+  необходимо переместить label под input
+}*/
+
+
+

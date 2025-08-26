@@ -1,0 +1,42 @@
+.hero-section {
+  padding: 272px 0;
+  background-image: url(/images/apricot.png);
+ /* background-image: linear-gradient(102.76deg, 
+  rgba(18, 18, .17, 0.78) 2.03%, 
+  rgba(18, 18, 17, 0.6) 58.46%, 
+  rgba(18, 18, 17, 0) 90.36%),
+  url(/img/заставка.jpg);*/
+  background-size: cover; /*contain*/
+  background-repeat: no-repeat;
+  background-position: center top;
+  //*background-attachment: fixed;*/
+  &__title {
+  margin-bottom: 0;
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  padding-top: 122px;
+  & span:last-child{
+    color:#473a3a;
+  }
+  @media screen and (min-width: $bp-desktop) {
+    font-size: 128px;
+    line-height: 1.5;
+    padding: 124px 0;
+    flex-wrap: wrap;
+    
+  }
+  }
+  &__button {
+    display: block;
+    margin:0  auto;
+    margin-top: 48px;
+     @media screen and (min-width: $bp-desktop) {
+      display: none;
+    }
+  }
+  }
+
+

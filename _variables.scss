@@ -1,0 +1,16 @@
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-brand-normal: rgb(88, 177, 207);
+  /*для замены названия одной переменной на другое
+  выделяем ее и нажимаем "Cntr + F " и затем стрелочка вниз
+  прописываем новое название и параметр(если нужно). Затем нажимаем
+  кнопку "Replace" в конце строки*/
+  --color-brand-lines: #cfcfbc;
+  --color-chef-picture-border: #a18268;
+}
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1200px;
+$bp-large: 1600px;
