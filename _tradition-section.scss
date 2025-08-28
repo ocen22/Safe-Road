@@ -23,10 +23,11 @@ font-weight: 600;
   max-width: 360px;
 }
 &__text span:first-child{
-  color: green;
+  color:blue;
   font-weight: 900;
 }
 &__image {
+  border-radius: 16px;
   @media screen and (max-width: $bp-tablet) {
     display: none;
    }
