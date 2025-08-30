@@ -1,0 +1,25 @@
+.section{
+  padding: 48px 0;
+   @media screen and (max-width: $bp-tablet) {
+    padding: 20px 0;    
+    }
+  &__title {
+    color:blue /*var(--color-primary-dark);*/;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3;
+    @media screen and (max-width: $bp-tablet) {
+    font-size: 32px;
+    line-height: 1.5;
+    }
+    &--centered {
+      text-align: center;
+    }
+    &__span {
+      color: var(--color-brand-dark);
+    }
+  }
+}
+
+
+
